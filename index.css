@@ -4,6 +4,10 @@
     border: 0px solid teal;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    background-color:white;
+    top: 0px;
+    bottom: 561px;
 
 }
 #nav1{
@@ -50,16 +54,16 @@
     height: 600px;
     width: 100%;
     border: 0px solid rgb(219, 59, 11);
-    margin-top: 20px;
+    margin-top: 56px;
     display: flex;
-    background-image: url(https://www.jcrew.com/brand_creative/homepage2022/05-May2/2022may_0503_hp_w_img0.jpg);
+    background-image: url(https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img0_v2.jpg);
     background-size: 100% 100%;
     
 }
 
  #main_left{
     height: 100%;
-    width: 50%;
+    width: 100%;
     text-align: center;
    
     margin-top: 200px;
@@ -77,11 +81,12 @@
     color: aliceblue;
 }
 #middle_part{
-    height: 600px;
+    height: 740px;
     width: 90%;
-    border: 1px solid rgb(219, 59, 11);
-    margin-top: 20px;
+    border: 0px solid rgb(219, 59, 11);
+   
     margin: auto;
+    margin-top: 15px;
     display: flex;
     
 
@@ -89,22 +94,400 @@
 #middle_1{
     height: 100%;
     width: 50%;
+    border: 0px solid green;
     text-align: center;
    
-    margin-top: 15px;
-    color: rgb(212, 32, 32);
+    margin-top: 10px;
+    color: white;
     font-size: 25px;
     background-image: url(https://www.jcrew.com/brand_creative/homepage2022/05-May2/2022may_0503_hp_w_img1.jpg);
     background-size: 100% 100%;
 }
+.desc>h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(248, 246, 246);
+}
+.desc>h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    color: white;
+    
+
+}
 #middle_2{
     height: 100%;
     width: 50%;
+    border: 0px solid blue;
     text-align: center;
    
-    margin-top: 15px;
+    margin-top: 10px;
     color: rgb(212, 32, 32);
     font-size: 25px;
     background-image: url(https://www.jcrew.com/brand_creative/homepage2022/05-May2/2022may_0503_hp_w_img2.jpg);
     background-size: 100% 100%;
 }
+.desc{
+    margin-top: 500px;
+}
+#middle_3{
+    height: 100%;
+    width: 50%;
+    border: 0px solid green;
+    text-align: center;
+   
+    /* margin-top: 10px; */
+    color: white;
+    font-size: 25px;
+    background-image: url(https://www.jcrew.com/brand_creative/homepage2022/05-May2/2022may_0503_hp_w_img3.jpg);
+    background-size: 100% 100%;
+}
+
+#middle_4{
+    height: 100%;
+    width: 50%;
+    border: 0px solid green;
+    text-align: center;
+   
+    /* margin-top: 10px; */
+    color: white;
+    font-size: 25px;
+    background-image: url(https://www.jcrew.com/brand_creative/homepage2022/05-May2/2022may_0503_hp_w_img4.jpg);
+    background-size: 100% 100%;
+}
+.shopNewArrivals{
+    display: flex;
+    width: 900px;
+    height: 100px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.shopText1{
+    font-size: 22px;
+}
+.shopWomenText{
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.shopWomen1,.shopmen1,.shopGirls1,
+.shopBoy1{
+    display: flex;
+    border: 0px solid rgb(165, 159, 159);
+    width: 15%;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.shopWomen1:hover,.shopmen1:hover,.shopGirls1:hover,
+.shopBoy1:hover {
+    background-color: rgb(83, 72, 72);
+    color: white;
+
+}
+
+.ourInstagram{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 35px;
+    margin: auto;
+    margin-top: 55px;
+
+
+}
+.insta{
+    font-size: 30px;
+    font-weight: 500;
+}
+.inJcrew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 35px;
+    margin: auto;
+    margin: top 10px;
+
+
+}
+.joinCrew{
+    font-size: 18px;
+}
+
+.instaImag1{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: auto;
+    margin-top: 15px;
+    width: 90%;
+    height: 380px;
+    gap: 2%;
+}
+.instaImag1  div{
+    width: 100%;
+    height: 100%;
+}
+.imageInsta{
+    width: 100%;
+    height: 100%;
+}
+
+/* insta image css end */
+
+.instaImag1Women{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin: auto;
+    margin-top: 15px;
+    width: 95%;
+    height: 290px;
+    gap: 1%;
+}
+
+.instaImag1Women  div{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.imageInsta1{
+    width: 100%;
+    height: 80%;
+}
+.remixshop2{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+/* product div css start */
+.mainProDiv{     
+    display: flex;
+    width: 100%;
+    gap: 2%;
+    align-items: center;
+    
+  }
+  
+  #leftdiv{   
+    display: block;
+    flex-direction: column;
+     width: 23%;
+    height: 100%;
+    margin: auto;
+    padding: 1%;
+    position: absolute;
+    z-index: 1;
+    top: 195px;
+    left: 0%;
+    
+  }
+  #rightSide {
+    display: grid;
+    grid-template-columns: repeat(3,332px);
+    align-items: center;
+    width: 75%;
+    gap: 10px;
+    height: 100%;
+    right: 0%;
+    margin-left: 322px;
+       
+    
+  }
+  #rightSide  div{
+    width: 100%;
+    height: 300px;
+    padding: 10px 15px;
+  
+    border: 1px solid rgb(224, 224, 224);
+  }
+  #imageUrl{
+    width: 310px;
+    height: 150px;
+  }
+  .shopBtn{
+    padding: 5px 8px;
+    background: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 10px;
+    
+  }
+  .ptagprice{
+    font-size: 15px;
+    height: 15px;
+  }
+  .ptagprice1{
+    font-size: 15px;
+    height: 15px;
+    color: red;
+    text-decoration: line-through;
+  }
+  .priceDiv{
+     display: flex;
+     gap: 20px;
+  }
+  .filterpro,#selectOpt {  
+    display: flex;
+    border: 1px solid #CCC;
+    outline: none;
+    width: 100%;
+    height: 25px;
+    font-size: 16px;
+      }
+  .categoryNane{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 1%;
+    margin-top: 15px;
+     }
+ 
+
+    .footerBox1{
+        display: flex;
+        width: 100%;
+        height: 65%;
+        gap: 18px;
+        align-items: center;
+        justify-content:center;
+        margin-top: 45px;
+               
+    }
+    .footerBox1 div{
+         height: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: inherit;
+    }
+    .helpDesk {
+        flex: 2;
+        padding-left: 65px;
+    }
+    .quicksLinks{
+        flex: 2;
+    }
+    .aboutJcrew{
+        flex: 2;
+    }
+    .LikeBeingFirst{
+        flex: 4;
+        padding-left: 90px;
+    }
+    #searchEmail1{
+        display: flex;
+        height: 45px;
+        width: 85%;
+        padding: -150px;
+       
+    }
+    .enterEmail2{
+        width: 75%;
+        margin-left: -28px;
+        height: 35px;
+        font-size: 15px;
+        padding-left: 5px;
+    }
+    .searchenterMail{
+        background: none;
+        border: none;
+        height: 35px;
+        color: white;
+        background-color: black;
+        font-size: 15px;
+        padding: 8px;
+        cursor: pointer;
+    }
+    .helpDeskText1{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .helpDeskText{
+        font-size: 15px;
+             }
+    .helpDeskText:hover{
+      
+        text-decoration: underline;
+    }
+   
+    #footerBox2{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        height: 45%;
+        margin-left: -800px;
+        gap: 10%;
+    }
+    .logoYoutube {
+        display: flex;
+        width: 70%;
+        height: 23%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .coraLogo{
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    .fa-instagram,.fa-facebook,.fa-twitter,
+    .fa-linkedin, .fa-pinterest,.fa-youtube-square{
+        font-size: 25px;
+    }
+
+    .indiaFlagLog {
+        display: flex;
+        width: 40%;
+        height: 23%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .indiaImage{
+        width: 120px;
+        height: 55px;
+    }
+    .indiaText{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
+    .jXCrewLogo2 {
+        display: flex;
+        width: 45%;
+        height: 23%;
+        align-items: center;
+        padding: 5px;
+        justify-content: space-around;
+    }
+    .crewDeinSwim{
+        width: 120px;
+        height: 55px;
+        cursor: pointer;
+    }
+    .numberTextDiv{
+        display: flex;
+        width: 40%;
+        height: 23%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .numberText1{
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(119, 111, 111);
+    }
+   
+  
+  
+  

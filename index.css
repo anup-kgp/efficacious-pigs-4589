@@ -51,12 +51,25 @@
     width: 20;
     height: 46px;
 }
+#love{
+    width: 50px;
+}
+#container{
+    width: 100%;
+    height: 66px;
+    border-top:1px solid grey ;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 #main{
     height: 600px;
     width: 100%;
     border: 0px solid rgb(219, 59, 11);
-    margin-top: 56px;
+    margin-top: 0px;
     display: flex;
     background-image: url(https://www.jcrew.com/brand_creative/homepage2022/07-Jul4/2022jul_0719_hp_w_img0_v2.jpg);
     background-size: 100% 100%;

@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign in</title>
     <style>
+        *{
+            background-color: aliceblue;
+        }
         #login{
             height: 514px;
             width: 350px;
             /* border: 1px solid teal;   */
             margin: auto;
             text-align: center;
+            margin-top: 90px;
             box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             
+        }
+        #login>h2{
+            padding: 20px;
         }
         input[type=text],input[type=password]{
             width: 85%;
@@ -60,9 +67,90 @@
             border: none;
             color: #0161fe;
         }
+
+        
+#navbar{
+    width: 100%;
+    height: 56px;
+    border: 0px solid teal;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color:white;
+    top: 0px;
+    bottom: 561px;
+
+}
+#nav1{
+    height:56px;
+    width: 566px;
+    border: 0px solid black;
+    display: flex;
+    align-items: flex-start;
+}
+#nav2{
+    height:56px;
+    width: 500px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.navlogo{
+    width: 59%;
+}
+#nav1>a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+                
+}
+#srch{
+    height: 40px;
+}
+#sign{
+    text-decoration: none;
+    margin-bottom: 20px;
+    /* color:black; */
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px; 
+}
+#bag{
+    width: 20;
+    height: 46px;
+}
+#love{
+    width: 50px;
+}
     </style>
 </head>
 <body>
+
+    <div id="navbar">
+        
+        <div id="nav1">
+            <span><img class="navlogo" src="/img/download.png" alt=""></span>
+            <a href="#"><h4>New</h4></a>
+            <a href="mens.html"><h4>Men</h4></a>
+            <a href="#"><h4>Women</h4></a>
+            <a href="#"><h4>Kids</h4></a>
+            <a href="index.html"><h4>Home</h4></a>
+            <a href="#"><h4>Stories</h4></a>
+            <a href="#"><h4>Sale</h4></a>
+                      
+        </div>
+        <div id="nav2">
+            <span><img src="https://www.jcrew.com/next-static/images/jcrew/svg/icon_search_d.svg" alt=""></span>
+            <input id="srch" type="search" placeholder="Search J.Crew" >
+            <!-- <div ><a style="color:white;" id="sign" href="sign in.html">Sign In</a></div> -->
+           <a  href="cart.html"><img id="love"   src="https://image.shutterstock.com/image-vector/heart-outline-icon-vector-260nw-519373105.jpg" alt=""></a>
+            <img id="bag" src="https://www.jcrew.com/next-static/images/jcrew/svg/icon_bag_d.svg" alt="">
+        </div>
+   
+    
+</div>
+
     
     <div id="login">
         <h2>Sign In</h2>

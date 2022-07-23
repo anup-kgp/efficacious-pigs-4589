@@ -62,3 +62,138 @@
     text-align: center;
     border: 1px solid grey;
 }
+.footerBox1{
+    display: flex;
+    width: 100%;
+    height: 65%;
+    gap: 18px;
+    align-items: center;
+    justify-content:center;
+    margin-top: 45px;
+           
+}
+.footerBox1 div{
+     height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: inherit;
+}
+.helpDesk {
+    flex: 2;
+    padding-left: 65px;
+}
+.quicksLinks{
+    flex: 2;
+}
+.aboutJcrew{
+    flex: 2;
+}
+.LikeBeingFirst{
+    flex: 4;
+    padding-left: 90px;
+}
+#searchEmail1{
+    display: flex;
+    height: 45px;
+    width: 85%;
+    padding: -150px;
+   
+}
+.enterEmail2{
+    width: 75%;
+    margin-left: -28px;
+    height: 35px;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.searchenterMail{
+    background: none;
+    border: none;
+    height: 35px;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    padding: 8px;
+    cursor: pointer;
+}
+.helpDeskText1{
+    font-size: 15px;
+    font-weight: 600;
+}
+.helpDeskText{
+    font-size: 15px;
+         }
+.helpDeskText:hover{
+  
+    text-decoration: underline;
+}
+
+#footerBox2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 45%;
+    margin-left: -800px;
+    gap: 10%;
+}
+.logoYoutube {
+    display: flex;
+    width: 70%;
+    height: 23%;
+    align-items: center;
+    justify-content: space-around;
+}
+.coraLogo{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.fa-instagram,.fa-facebook,.fa-twitter,
+.fa-linkedin, .fa-pinterest,.fa-youtube-square{
+    font-size: 25px;
+}
+
+.indiaFlagLog {
+    display: flex;
+    width: 40%;
+    height: 23%;
+    align-items: center;
+    justify-content: space-around;
+}
+.indiaImage{
+    width: 120px;
+    height: 55px;
+}
+.indiaText{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.jXCrewLogo2 {
+    display: flex;
+    width: 45%;
+    height: 23%;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-around;
+}
+.crewDeinSwim{
+    width: 120px;
+    height: 55px;
+    cursor: pointer;
+}
+.numberTextDiv{
+    display: flex;
+    width: 40%;
+    height: 23%;
+    align-items: center;
+    justify-content: space-around;
+}
+.numberText1{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(119, 111, 111);
+}
+
+
+

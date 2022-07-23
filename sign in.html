@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #login{
+            height: 514px;
+            width: 350px;
+            border: 1px solid teal;
+            margin: auto;
+            text-align: center;
+            
+        }
+        input[type=text],input[type=password]{
+            width: 85%;
+            padding: 12px 20px;
+            margin: 8px 0px;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+        #sign{
+            background-color:black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 85%; 
+  margin-top: 16px;
+        }
+        label{
+            margin-left: 2px;
+            /* margin-right: 120px; */
+        }
+        #rf{
+            display: flex;
+            margin-left: 2px;
+        }
+        input[type=checkbox]{
+            margin-left: 26px;
+        }
+        .frg{
+            margin-left: 28px;
+            border: none;
+            color: rgb(43, 171, 221);
+        }
+        .pr{
+            margin-left: 13px;
+        }
+        .sg{
+            margin-top: 60px;
+            font-weight: bold;
+        }
+        .sg>button{
+            background-color: none;
+            border: none;
+            color: #0161fe;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="login">
+        <h2>Sign In</h2>
+        <form action="">
+            <input type="text" placeholder="Email Address*"><br>
+            <input type="password" placeholder="Password*"><br>
+            <div id="rf"><input type="checkbox"> <label for="">Remember Password</label> <button class="frg">Forgot Password ?</button></div>
+            
+            <button id="sign">SIGN IN</button><br>
+            <div class="pr">This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</div><br>
+        </form>
+        <hr>
+        <div class="sg"><span>Don’t have an account?</span><button>Sign Up Now</button></div>
+
+    </div>
+</body>
+</html>
